@@ -1,0 +1,6 @@
+Song.create(title: "Freebird", released: true, release_year: 1984, artist_name: "Lynyrd Skynyrd", genre: "Rock")
+Song.create(title: "Holly", released: false, artist_name: "Steve Vai", genre: "Pop")
+Song.create(title: "Crazy Train", released: true, release_year: 1994, artist_name: "Ozzy Osbourne", genre: "Metal")
+Song.create(title: "Not Now John", released: true, release_year: 1992, artist_name: "Pink Floyd", genre: "Rock")
+Song.create(title: "Pull Me Under", released: true, release_year: 1996, artist_name: "Dream Theater", genre: "Prog")
+Song.create(title: "Vicarious", released: true, release_year: 1984, artist_name: "Tool", genre: "Prog")

@@ -1,0 +1,14 @@
+<table style="border-collapse:collapse;border-spacing:0;border-color:#aaa">
+  <tr>
+    <th style="font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;text-align:left;vertical-align:top">Title</th>
+    <th style="font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#fff;background-color:#f38630;text-align:left;vertical-align:top">Artist Name</th>
+  </tr>
+
+  <% @songs.each do |song| %>
+    <tr>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#FCFBE3;text-align:left;vertical-align:top"><%= link_to song.title, song %></td>
+      <td style="font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#aaa;color:#333;background-color:#FCFBE3;text-align:left;vertical-align:top"><%= song.artist_name %></td>
+    </tr>
+  <% end %>
+
+</table>

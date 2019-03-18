@@ -1,0 +1,5 @@
+<%= render 'shared/form' %>
+
+<%#binding.pry%>
+
+<%= link_to "Delete Song", song_path(@song), method: :delete, data: { confirm: 'Are you sure?' } %>
